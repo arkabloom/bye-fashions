@@ -7,7 +7,7 @@ window.BYE_CONFIG = {
   address: "2nd Room, 1st Floor, Masjid Rooms, Bangalore Road, Opp. Jandaman, Nakkaladinne, Madanapalle, Andhra Pradesh – 517325",
   // Replace these sample profile addresses with your confirmed profile URLs if needed.
   instagram: "https://www.instagram.com/byefashions/",
-  facebook: "https://www.facebook.com/byefashions/",
+  facebook: "https://m.facebook.com/byefashions/",
   youtube: "https://www.youtube.com/@byefashions",
   linktree: "https://linktr.ee/byefashions",
   whatsappGroup: "https://chat.whatsapp.com/E4lYMnunEx90iemK81GIgt",

@@ -12,3 +12,28 @@
 .offer-content{max-width:760px}.offer-deal b{font-size:10px;letter-spacing:.4px;color:#9a7138;margin-top:3px}.discount-odds{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:18px 0 10px}.discount-odds>strong{grid-column:1/-1;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#78603f}.discount-odds div{background:#f4f0e9;padding:10px 8px;display:flex;flex-direction:column;gap:5px}.discount-odds span{font-size:10px;color:#6d685f}.discount-odds b{font-size:14px;color:#171717}.offer-terms{max-width:700px!important;font-size:10px!important;line-height:1.7!important;color:#716b61!important}@media(max-width:600px){.discount-odds{grid-template-columns:repeat(3,1fr)}}
 
 .offer-deal-premium{border-left-color:#171717;background:#e7dfd2}.prize-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.prize-tags span{font-size:8px;font-weight:800;letter-spacing:.7px;color:#fff;background:#171717;padding:7px 8px}.discount-odds div{align-items:center;justify-content:center;min-height:42px}.discount-odds div span{font-weight:800;color:#171717;letter-spacing:.4px}
+
+
+/* BYE FASHIONS charcoal / matte-white textile finish */
+body{background-color:#202225;color:#f1f1ee;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.018) 0,rgba(255,255,255,.018) 1px,transparent 1px,transparent 3px),repeating-linear-gradient(90deg,rgba(0,0,0,.10) 0,rgba(0,0,0,.10) 1px,transparent 1px,transparent 4px),radial-gradient(ellipse at 18% 8%,rgba(255,255,255,.055),transparent 42%),linear-gradient(145deg,#282b2e,#17191b 55%,#222427)}
+.announcement{background:#b8945c;color:#111;background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.07) 0,rgba(255,255,255,.07) 1px,transparent 1px,transparent 4px)}
+.site-header,nav{background-color:#eeede9;color:#17191b;background-image:repeating-linear-gradient(0deg,rgba(40,40,40,.025) 0,rgba(40,40,40,.025) 1px,transparent 1px,transparent 3px),repeating-linear-gradient(90deg,rgba(255,255,255,.24) 0,rgba(255,255,255,.24) 1px,transparent 1px,transparent 4px)}
+nav a:not(.nav-cta){color:#333}.nav-cta{background:#202225;color:#fff}
+.hero,.visit-section,.social-band{background-color:#17191b;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.018) 0,rgba(255,255,255,.018) 1px,transparent 1px,transparent 3px),repeating-linear-gradient(90deg,rgba(0,0,0,.14) 0,rgba(0,0,0,.14) 1px,transparent 1px,transparent 4px),radial-gradient(ellipse at 14% 65%,rgba(184,148,92,.12),transparent 42%),linear-gradient(135deg,#292c2f,#121416 72%)}
+.hero-glow{opacity:.25}
+.hero-frame,.video-placeholder,.video-alt,.map-card{background-color:#222528;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.025) 0,rgba(255,255,255,.025) 1px,transparent 1px,transparent 3px),repeating-linear-gradient(90deg,rgba(0,0,0,.13) 0,rgba(0,0,0,.13) 1px,transparent 1px,transparent 4px),linear-gradient(145deg,#303336,#141618 72%)}
+.ticker{background:#b8945c}
+.section,.collections-section{background-color:#202326;color:#f1f0ec;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.014) 0,rgba(255,255,255,.014) 1px,transparent 1px,transparent 4px),linear-gradient(135deg,#292c2f,#191c1e)}
+.section h2{color:#f3f2ee}.section-intro{color:#c2c1bb}.section-index{color:#b8b5ad}
+.offers-section,.video-section,footer{background-color:#e9e8e4;color:#202225;background-image:repeating-linear-gradient(0deg,rgba(30,30,30,.025) 0,rgba(30,30,30,.025) 1px,transparent 1px,transparent 3px),repeating-linear-gradient(90deg,rgba(255,255,255,.25) 0,rgba(255,255,255,.25) 1px,transparent 1px,transparent 5px),linear-gradient(135deg,#efeee9,#deded9)}
+.offers-section .section-heading h2,.video-section .section-heading h2{color:#202225}
+.offer-panel{background-color:#f4f3ef;color:#1c1e20;border:1px solid #d0cfca;background-image:repeating-linear-gradient(0deg,rgba(20,20,20,.018) 0,rgba(20,20,20,.018) 1px,transparent 1px,transparent 3px),repeating-linear-gradient(90deg,rgba(255,255,255,.34) 0,rgba(255,255,255,.34) 1px,transparent 1px,transparent 4px),linear-gradient(145deg,#faf9f5,#e7e6e1);box-shadow:0 14px 35px rgba(0,0,0,.14)}
+.offer-panel h3{color:#1c1e20}.offer-panel p{color:#555650}
+.offer-deal{background:#e7e6e1;border:1px solid #d0cfca;border-left:3px solid #ad8954;background-image:repeating-linear-gradient(0deg,rgba(20,20,20,.025) 0,rgba(20,20,20,.025) 1px,transparent 1px,transparent 4px)}
+.offer-deal strong{color:#17191b}.offer-deal span,.offer-deal b,.fine-print,.offer-terms{color:#555650}
+.discount-odds{background:#e8e7e2;border:1px solid #d0cfca;color:#222}.discount-odds strong,.discount-odds span{color:#222}.discount-odds b{color:#896a3e}
+.collection-card{border:1px solid rgba(255,255,255,.16);box-shadow:0 10px 26px rgba(0,0,0,.25)}
+.collection-card:before{background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0,rgba(255,255,255,.035) 1px,transparent 1px,transparent 3px),repeating-linear-gradient(90deg,rgba(0,0,0,.12) 0,rgba(0,0,0,.12) 1px,transparent 1px,transparent 4px),linear-gradient(135deg,#55595b,#242729 70%);filter:saturate(.58)}
+.social-links a{border-color:#65635d;background:rgba(255,255,255,.025)}
+.video-section .section-intro{color:#5f5e59}.footer-links{color:#444}.floating-whatsapp{background:#23865a}
+@media(max-width:800px){nav.open{background-color:#eeede9;background-image:repeating-linear-gradient(0deg,rgba(30,30,30,.02) 0,rgba(30,30,30,.02) 1px,transparent 1px,transparent 3px)}}

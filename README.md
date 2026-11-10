@@ -65,3 +65,8 @@ This is a static informational and promotional website. It does not yet include 
 - Offer 1: purchase above ₹500 qualifies for one slip giving a 3%–10% discount, maximum ₹250.
 - Offer 2: purchase above ₹5,000 qualifies for one premium slip. The selected slip gives ONE reward only: either a 3%–10% discount (maximum ₹500) OR one gift (earbuds, branded smart watch, power bank or perfume). It is not a discount plus a gift.
 - Add the exact smart-watch brand/model to the customer-facing offer and printed slips once confirmed.
+
+
+## Latest visual and Facebook update
+- Updated the site to charcoal black, matte white and subtle woven-textile-style CSS textures.
+- Facebook currently uses the mobile Facebook endpoint for the configured `byefashions` page slug. If the actual Page URL differs, replace the `facebook` value in `config.js` with the exact URL copied from the Facebook Page Share > Copy link action.
