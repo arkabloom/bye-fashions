@@ -55,3 +55,13 @@ nav a:not(.nav-cta){color:#242424}nav a:hover,.footer-links a:hover{color:#000;t
 .social-links a{border:1px solid #c9c8c1;background:rgba(255,255,255,.35);color:#171717}.social-links a span{color:#171717}.video-placeholder b,.video-placeholder small{color:#171717}.video-placeholder{background-color:#e9e8e2}.video-alt{background-color:#e9e8e2}.visit-details small{color:#555}.map-card{background-color:#eeede8}.map-card a{color:#171717}.light{color:#171717}footer{border-top:1px solid #d8d7d1}footer p,footer>small,.footer-links{color:#555}.text-link{border-color:#171717;color:#171717}.floating-whatsapp{background:#202020}
 /* Use the supplied embossed-paper reference as the real repeating site texture */
 body,.site-header,nav,nav.open,.hero,.section,.collections-section,.offers-section,.video-section,.visit-section,.social-band,footer,.offer-panel,.offer-deal,.offer-deal-premium,.discount-odds,.discount-odds div,.hero-frame,.video-placeholder,.video-alt,.map-card{background-image:linear-gradient(rgba(255,255,255,.16),rgba(255,255,255,.16)),url('assets/paper-texture.jpg');background-repeat:repeat;background-size:auto,560px 560px;background-blend-mode:normal,normal}
+
+/* Offers: clear vertical sequence */
+.offer-panel{align-items:flex-start}
+.offer-content{width:100%;max-width:760px}
+.offer-item{margin:22px 0 26px}
+.offer-side-heading{font-family:Inter,Arial,sans-serif!important;font-size:clamp(16px,2vw,20px)!important;font-weight:800!important;letter-spacing:.7px;text-transform:uppercase;color:#171717;margin:0 0 12px!important;line-height:1.35!important}
+.offer-item .offer-deal{width:100%;box-sizing:border-box}
+.offer-premium{border-left-color:#171717}
+.offer-terms{margin-top:16px}
+@media(max-width:600px){.offer-panel{padding:26px 20px;display:block}.offer-panel>.button{margin-top:18px;display:inline-flex}}
