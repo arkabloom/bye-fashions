@@ -10,3 +10,5 @@
 @media(max-width:600px){.offer-highlights{grid-template-columns:1fr}}
 
 .offer-content{max-width:760px}.offer-deal b{font-size:10px;letter-spacing:.4px;color:#9a7138;margin-top:3px}.discount-odds{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:18px 0 10px}.discount-odds>strong{grid-column:1/-1;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#78603f}.discount-odds div{background:#f4f0e9;padding:10px 8px;display:flex;flex-direction:column;gap:5px}.discount-odds span{font-size:10px;color:#6d685f}.discount-odds b{font-size:14px;color:#171717}.offer-terms{max-width:700px!important;font-size:10px!important;line-height:1.7!important;color:#716b61!important}@media(max-width:600px){.discount-odds{grid-template-columns:repeat(3,1fr)}}
+
+.offer-deal-premium{border-left-color:#171717;background:#e7dfd2}.prize-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.prize-tags span{font-size:8px;font-weight:800;letter-spacing:.7px;color:#fff;background:#171717;padding:7px 8px}.discount-odds div{align-items:center;justify-content:center;min-height:42px}.discount-odds div span{font-weight:800;color:#171717;letter-spacing:.4px}

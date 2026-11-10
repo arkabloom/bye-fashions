@@ -47,3 +47,21 @@ This is a static informational and promotional website. It does not yet include 
 - Suggested outcome probabilities shown on the page: 45%, 25%, 20%, 8%, and 2%, respectively (weighted average rate 4.11% before the rupee cap).
 - Separate prize draw: purchase of ₹5,000 qualifies for an entry to win earbuds or a watch. Confirm whether the qualifying amount is calculated before or after the instant discount, and publish final dates, prize details, eligibility and terms before launch.
 - Do not combine with other offers. Confirm all promotion mechanics and applicable local rules before advertising.
+
+
+## Current grand-opening offers
+- Offer 01: bill of ₹500 or more; draw one slip for a 3%–10% discount, capped at ₹250 per bill.
+- Offer 02: single bill above ₹5,000; draw one premium slip for a 3%–10% discount capped at ₹500, plus the gift printed on the slip (earbuds, smart watch or power bank).
+- One slip per qualifying bill; the selected slip determines the reward. Confirm offer dates, prize availability and complete terms before publishing.
+
+
+## Updated opening offers
+- Offer 1: purchase above ₹500 qualifies for one random 3%–10% discount slip, maximum discount ₹250.
+- Offer 2: purchase of ₹5,000 or more qualifies for a premium lucky slip with a random 3%–10% discount, maximum discount ₹500, plus the gift shown on the slip. Gift options: earbuds, smart watch, power bank, or perfume.
+- Confirm final slip contents, prize availability, promotion dates and applicable terms before publishing.
+
+
+## Corrected premium lucky-slip mechanic
+- Offer 1: purchase above ₹500 qualifies for one slip giving a 3%–10% discount, maximum ₹250.
+- Offer 2: purchase above ₹5,000 qualifies for one premium slip. The selected slip gives ONE reward only: either a 3%–10% discount (maximum ₹500) OR one gift (earbuds, branded smart watch, power bank or perfume). It is not a discount plus a gift.
+- Add the exact smart-watch brand/model to the customer-facing offer and printed slips once confirmed.

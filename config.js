@@ -15,5 +15,5 @@ window.BYE_CONFIG = {
   promoVideo1: "",
   promoVideo2: "",
   // Optional: update this line when your opening offer is finalized.
-  announcement: "SPIN & WIN · 3%–10% SURPRISE DISCOUNT · SHOP ₹5,000 FOR PRIZE DRAW ENTRY"
+  announcement: "TWO LUCKY-DRAW OFFERS · SHOP ₹500+ OR ABOVE ₹5,000 · DISCOUNTS + GIFTS"
 };
