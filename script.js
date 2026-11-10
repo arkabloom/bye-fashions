@@ -9,7 +9,8 @@
     facebook: c.facebook || "#",
     youtube: c.youtube || "#",
     linktree: c.linktree || "#",
-    maps: "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(c.address || "BYE FASHIONS Madanapalle")
+    maps: c.mapsUrl || c.mapsSearchUrl || ("https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(c.address || "BYE FASHIONS Madanapalle")),
+    mapsSearch: c.mapsSearchUrl || ("https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(c.address || "BYE FASHIONS Madanapalle"))
   };
   document.querySelectorAll("[data-link]").forEach(a=>{
     const key=a.dataset.link; a.href=links[key] || "#";

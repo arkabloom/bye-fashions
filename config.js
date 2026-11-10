@@ -5,9 +5,11 @@ window.BYE_CONFIG = {
   phoneDigits: "918143060470",
   email: "byefashionsmpl@gmail.com",
   address: "2nd Room, 1st Floor, Masjid Rooms, Bangalore Road, Opp. Jandaman, Nakkaladinne, Madanapalle, Andhra Pradesh – 517325",
+  mapsUrl: "https://maps.app.goo.gl/Tu2j81Bz3i5gDDq7A?g_st=aw",
+  mapsSearchUrl: "https://www.google.com/maps/search/?api=1&query=BYE%20FASHIONS%2C%20Madanapalle%2C%20Andhra%20Pradesh",
   // Replace these sample profile addresses with your confirmed profile URLs if needed.
   instagram: "https://www.instagram.com/byefashions/",
-  facebook: "https://m.facebook.com/byefashions/",
+  facebook: "https://www.facebook.com/profile.php?id=61595693604194",
   youtube: "https://www.youtube.com/@byefashions",
   linktree: "https://linktr.ee/byefashions",
   whatsappGroup: "https://chat.whatsapp.com/E4lYMnunEx90iemK81GIgt",

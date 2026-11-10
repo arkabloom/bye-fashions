@@ -69,4 +69,13 @@ This is a static informational and promotional website. It does not yet include 
 
 ## Latest visual and Facebook update
 - Updated the site to charcoal black, matte white and subtle woven-textile-style CSS textures.
-- Facebook currently uses the mobile Facebook endpoint for the configured `byefashions` page slug. If the actual Page URL differs, replace the `facebook` value in `config.js` with the exact URL copied from the Facebook Page Share > Copy link action.
+- Facebook uses the exact personalised Page link shown in the owner-provided Page settings screenshot: https://www.facebook.com/profile.php?id=61595693604194.
+
+
+## Shop location link
+- The Get Directions and Open in Google Maps links use the exact Google Maps short link supplied by the shop owner: https://maps.app.goo.gl/Tu2j81Bz3i5gDDq7A?g_st=aw
+- The exact short link is stored in `config.js` as `mapsUrl`. A second button now opens a Google Maps search for BYE FASHIONS in Madanapalle if the short link does not open.
+
+
+## Facebook Page link
+- Facebook link updated to the exact personalised Page URL supplied in the Page settings screenshot: https://www.facebook.com/profile.php?id=61595693604194.
