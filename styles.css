@@ -126,3 +126,98 @@ h1,h2,h3,h4,b,strong,label,nav a,.footer-links a{color:#171717}
 .card-accessories:before{background-image:url('assets/collection-accessories.jpg')!important}
 .collection-card>span,.collection-card small,.collection-card h3,.collection-card b{position:relative;z-index:1;color:#171717!important;text-shadow:0 1px 5px rgba(255,255,255,.65)}
 @media(max-width:480px){.collection-card:before{inset:0 0 0 28%!important}.collection-card:after{background:linear-gradient(90deg,rgba(248,247,243,1),rgba(248,247,243,.78) 48%,rgba(248,247,243,.08))!important}}
+
+
+/* FINAL READABILITY PASS: video, visit and section headings */
+.video-section,
+.visit-section {
+  background-color: #f7f6f2 !important;
+  color: #171717 !important;
+  background-image:
+    url("assets/paper-texture.jpg"),
+    linear-gradient(#f7f6f2, #f7f6f2) !important;
+  background-blend-mode: multiply, normal;
+  background-size: 420px 420px, cover !important;
+}
+.video-section .section-heading h2,
+.video-section .section-heading h2 em,
+.visit-section h2,
+.visit-section h2 em,
+.video-section .eyebrow,
+.visit-section .eyebrow,
+.video-section .section-index,
+.video-section .section-intro,
+.video-placeholder b,
+.video-placeholder small,
+.video-placeholder .play-icon,
+.visit-copy .address,
+.visit-details,
+.visit-details small,
+.visit-details a,
+.visit-details span,
+.map-card b,
+.map-card small,
+.map-card a {
+  color: #111111 !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+.video-placeholder,
+.video-alt,
+.map-card {
+  background-color: rgba(255,255,255,.78) !important;
+  background-image: url("assets/paper-texture.jpg") !important;
+  background-blend-mode: multiply !important;
+  border: 1px solid #bdbbb4 !important;
+}
+.video-placeholder b {
+  display: block !important;
+  font-weight: 800 !important;
+  letter-spacing: .16em !important;
+}
+.video-placeholder small {
+  display: block !important;
+  font-size: 13px !important;
+  line-height: 1.55 !important;
+  font-weight: 500 !important;
+}
+.play-icon {
+  border: 1px solid #222 !important;
+  color: #111 !important;
+  background: rgba(255,255,255,.75) !important;
+}
+.visit-actions .button,
+.visit-actions .button-gold,
+.visit-actions .button-outline,
+.visit-actions .button-outline.light {
+  background: #171717 !important;
+  color: #fff !important;
+  border: 1px solid #171717 !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+  min-width: 126px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 16px 22px !important;
+}
+.visit-actions .button:hover {
+  background: #333 !important;
+  color: #fff !important;
+}
+.visit-details .map-card {
+  padding: 22px !important;
+  gap: 12px !important;
+}
+.map-card a {
+  display: block !important;
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  letter-spacing: .08em !important;
+  padding-top: 8px !important;
+  border-top: 1px solid rgba(0,0,0,.15) !important;
+}
+.video-section .section-heading h2 em,
+.visit-section h2 em {
+  color: #171717 !important;
+}
