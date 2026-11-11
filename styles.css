@@ -265,3 +265,39 @@ footer img {
     height: 88px !important;
   }
 }
+
+
+/* Black crumpled-paper texture for collection tiles only */
+.collection-card,
+.collection-tile,
+.category-card,
+.collection-item,
+.collections-grid > a,
+.collections-grid > article {
+  background-color: #111 !important;
+  background-image:
+    linear-gradient(rgba(0,0,0,.22), rgba(0,0,0,.48)),
+    url("assets/black-crumpled-paper-texture.jpg") !important;
+  background-size: cover, cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  color: #fff !important;
+  border: 1px solid rgba(255,255,255,.22) !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,.10) !important;
+}
+.collection-card *,
+.collection-tile *,
+.category-card *,
+.collection-item *,
+.collections-grid > a *,
+.collections-grid > article * {
+  color: #fff !important;
+}
+.collection-card a,
+.collection-tile a,
+.category-card a,
+.collection-item a,
+.collections-grid > a a,
+.collections-grid > article a {
+  color: #fff !important;
+}
