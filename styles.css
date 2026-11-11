@@ -221,3 +221,47 @@ h1,h2,h3,h4,b,strong,label,nav a,.footer-links a{color:#171717}
 .visit-section h2 em {
   color: #171717 !important;
 }
+
+/* BYE FASHIONS logo visibility upgrade */
+.site-header {
+  min-height: 104px !important;
+}
+.brand {
+  display: flex !important;
+  align-items: center !important;
+  flex: 0 0 auto !important;
+}
+.brand img {
+  width: 190px !important;
+  height: 88px !important;
+  max-width: none !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+footer img {
+  width: 190px !important;
+  height: 96px !important;
+  max-width: none !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0 auto 8px !important;
+}
+@media (max-width: 800px) {
+  .site-header {
+    min-height: 88px !important;
+    height: 88px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+  .brand img {
+    width: 155px !important;
+    height: 76px !important;
+  }
+  nav {
+    top: 88px !important;
+  }
+  footer img {
+    width: 170px !important;
+    height: 88px !important;
+  }
+}
