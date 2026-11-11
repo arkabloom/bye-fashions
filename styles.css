@@ -407,3 +407,44 @@ footer img {
     height: 100px !important;
   }
 }
+
+
+/* Offer panel contrast correction: keep every line readable on dark texture */
+.offer-panel,
+.offer-panel .offer-content,
+.offer-panel .offer-item,
+.offer-panel .offer-deal,
+.offer-panel .fine-print {
+  color: #fff !important;
+}
+.offer-panel .offer-label,
+.offer-panel .offer-side-heading,
+.offer-panel h3,
+.offer-panel .offer-deal strong,
+.offer-panel .offer-deal span,
+.offer-panel .offer-deal b,
+.offer-panel p,
+.offer-panel .fine-print,
+.offer-panel small {
+  color: #fff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,.65) !important;
+}
+.offer-panel .offer-deal span,
+.offer-panel .fine-print {
+  color: #f2f2f2 !important;
+  font-weight: 500 !important;
+}
+.offer-panel .offer-deal {
+  background-color: rgba(0,0,0,.22) !important;
+  border-color: rgba(255,255,255,.55) !important;
+}
+.offer-panel .offer-item h3 {
+  font-weight: 800 !important;
+  letter-spacing: .04em !important;
+}
+.offer-panel .offer-label {
+  color: #fff !important;
+  letter-spacing: .18em !important;
+}
