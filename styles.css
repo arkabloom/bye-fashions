@@ -112,3 +112,17 @@ h1,h2,h3,h4,b,strong,label,nav a,.footer-links a{color:#171717}
  .offer-deal{padding:15px!important}
  .video-grid{grid-template-columns:1fr!important}
 }
+
+/* Collection photography: clean product imagery with readable text */
+.collection-card{background:#f7f6f2!important;color:#171717!important}
+.collection-card:before{inset:0 0 0 34%!important;z-index:-2!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important;opacity:1!important;transition:transform .55s ease!important}
+.collection-card:after{z-index:-1!important;background:linear-gradient(90deg,rgba(248,247,243,1) 0%,rgba(248,247,243,.96) 27%,rgba(248,247,243,.45) 58%,rgba(248,247,243,.03) 100%)!important}
+.collection-card:hover:before{transform:scale(1.05)!important}
+.card-shirts:before{background-image:url('assets/collection-shirts.jpg')!important}
+.card-pants:before{background-image:url('assets/collection-pants.jpg')!important}
+.card-tees:before{background-image:url('assets/collection-tshirts.jpg')!important}
+.card-jeans:before{background-image:url('assets/collection-jeans.jpg')!important}
+.card-jackets:before{background-image:url('assets/collection-jackets.jpg')!important}
+.card-accessories:before{background-image:url('assets/collection-accessories.jpg')!important}
+.collection-card>span,.collection-card small,.collection-card h3,.collection-card b{position:relative;z-index:1;color:#171717!important;text-shadow:0 1px 5px rgba(255,255,255,.65)}
+@media(max-width:480px){.collection-card:before{inset:0 0 0 28%!important}.collection-card:after{background:linear-gradient(90deg,rgba(248,247,243,1),rgba(248,247,243,.78) 48%,rgba(248,247,243,.08))!important}}
