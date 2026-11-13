@@ -36,7 +36,7 @@
       const u=new URL(url);
       let id="";
       if(u.hostname.includes("youtu.be")) id=u.pathname.slice(1);
-      else if(u.hostname.includes("youtube.com")) id=u.searchParams.get("v") || (u.pathname.includes("/embed/") ? u.pathname.split("/embed/")[1] : "");
+      else if(u.hostname.includes("youtube.com")) id=u.searchParams.get("v") || (u.pathname.includes("/embed/") ? u.pathname.split("/embed/")[1] : (u.pathname.includes("/shorts/") ? u.pathname.split("/shorts/")[1] : ""));
       return id ? "https://www.youtube-nocookie.com/embed/"+id.split(/[?&/]/)[0] : "";
     }catch(e){return "";}
   }

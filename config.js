@@ -14,7 +14,7 @@ window.BYE_CONFIG = {
   linktree: "https://linktr.ee/byefashions",
   whatsappGroup: "https://chat.whatsapp.com/E4lYMnunEx90iemK81GIgt",
   // Paste a direct YouTube video URL here to show your first promo video.
-  promoVideo1: "",
+  promoVideo1: "https://www.youtube.com/shorts/ss6zQRD3WaU",
   promoVideo2: "",
   // Optional: update this line when your opening offer is finalized.
   announcement: "TWO LUCKY-DRAW OFFERS · SHOP ₹500+ OR ABOVE ₹5,000 · DISCOUNTS + GIFTS"
