@@ -1,72 +1,81 @@
-# BYE FASHIONS — Shop Management
+# BYE FASHIONS website
 
-A Flutter project targeting **Android and Web**. The current MVP includes:
-- Dashboard with today's sales, bill count, stock units and low-stock count
-- Product inventory: add, edit, delete, SKU, category, cost, selling price and quantity
-- Single-item billing: customer details, discount, payment mode, invoice number and stock deduction
-- Invoice preview and PDF print/save
-- Expense tracking by category
-- Revenue, estimated gross/net summary and payment-mode report
-- Local JSON backup export (copied to clipboard)
+A responsive static website prepared for GitHub Pages.
 
-## Requirements
-- Flutter stable (3.3+; recommended current stable)
-- Android Studio / Android SDK for Android builds
-- Chrome for web builds
+## Included
+- Responsive modern menswear landing page
+- Existing BYE FASHIONS logo asset
+- Opening-offer announcement section
+- Collection category cards linked to WhatsApp messages
+- Instagram, Facebook, YouTube and Linktree links
+- WhatsApp direct contact and group invite slot
+- Address, phone, email and Google Maps directions
+- Promotional video placeholders
+- No paid hosting or build tools required
 
-## First-time setup (required)
-This ZIP contains the application source. Generate the standard Android and Web platform folders with Flutter, then resolve packages:
+## Before publishing
+1. Open `config.js`.
+2. Confirm the Instagram, Facebook and YouTube profile URLs.
+3. WhatsApp group invite and Linktree URL are already configured.
+4. Instagram, Facebook and YouTube profile links are already configured.
+5. Add your YouTube promo video URLs to `promoVideo1` and `promoVideo2` when available.
+6. Current offer wording: up to 10% off (maximum discount ₹250) on any product, plus a lucky-draw entry on purchases of ₹5,000 for a chance to win earbuds or a watch. Confirm eligibility, dates and terms before publishing.
 
-macOS / Linux:
-```bash
-chmod +x setup_platforms.sh
-./setup_platforms.sh
-```
+The phone number, email and shop address are already filled from the details previously supplied.
 
-Windows:
-```bat
-setup_platforms.bat
-```
+## Publish with GitHub Pages
+1. Sign in to GitHub and create a new **public** repository named `bye-fashions`.
+2. Extract this ZIP on your computer.
+3. Upload the *contents* of this folder (not the outer folder) to the repository root. You should see `index.html`, `styles.css`, `script.js`, `config.js`, and `assets/`.
+4. In the repository, open **Settings → Pages**.
+5. Under **Build and deployment**, choose **Deploy from a branch**.
+6. Select branch **main** and folder **/(root)**, then click **Save**.
+7. Wait a few minutes. GitHub will show the live website address in Settings → Pages.
 
-This requires Flutter stable installed and available in PATH. The setup command generates the platform scaffolding; it does not erase `lib/` or `pubspec.yaml`.
+Expected URL format: `https://YOUR-USERNAME.github.io/bye-fashions/`
 
-## Run locally
-```bash
-flutter run
-```
+## Updating the website
+Edit `config.js` to change links, opening announcements and contact details. Edit `index.html` for page text. Every update pushed to the main branch is published automatically.
 
-## Run in Chrome
-```bash
-flutter config --enable-web
-flutter run -d chrome
-```
+## Important
+This is a static informational and promotional website. It does not yet include online checkout, inventory management, customer accounts or payment processing. WhatsApp is used for collection enquiries and orders.
 
-## Build Android APK
-```bash
-flutter build apk --release
-```
-APK output: `build/app/outputs/flutter-apk/app-release.apk`
 
-## Build website
-```bash
-flutter build web --release
-```
-Upload the contents of `build/web/` to GitHub Pages (or another static host). For GitHub Pages, configure the repository Pages source to the `gh-pages` branch or deploy the `build/web` output with a Pages workflow.
+## Grand-opening discount setup
+- Surprise discount draw: 3%, 4%, 5%, 7%, or 10% on eligible bills of ₹500 or more.
+- Maximum discount: ₹250 per bill.
+- Suggested outcome probabilities shown on the page: 45%, 25%, 20%, 8%, and 2%, respectively (weighted average rate 4.11% before the rupee cap).
+- Separate prize draw: purchase of ₹5,000 qualifies for an entry to win earbuds or a watch. Confirm whether the qualifying amount is calculated before or after the instant discount, and publish final dates, prize details, eligibility and terms before launch.
+- Do not combine with other offers. Confirm all promotion mechanics and applicable local rules before advertising.
 
-## Data and important limitations
-- Hive local storage is used. Android data stays on that device; web data stays in that browser's local storage.
-- Android and web do **not** share/synchronize records automatically.
-- Export Backup currently copies JSON to clipboard. Save it manually as a `.json` file.
-- This is a usable MVP scaffold, not a certified GST/accounting product. Confirm tax, invoice numbering and statutory requirements with your accountant before issuing tax invoices.
-- The current billing form supports one product per bill. A multi-item cart, barcode scanner, purchase entry, supplier ledger, customer credit ledger, GST configuration, backup import, cloud sync, staff roles and audit log are future enhancements.
-- Do not uninstall/clear browser data before exporting a backup.
 
-## Suggested next release
-1. Multi-item cart and invoice line items
-2. GST / non-GST invoice settings, business address, phone and GSTIN
-3. Customer and supplier ledgers
-4. Purchase entry and stock adjustment history
-5. Backup import + encrypted backup
-6. Shared cloud database for Android and Web
-7. CSV/Excel reports and role-based staff access
-8. Barcode/QR scanning and thermal printer support
+## Current grand-opening offers
+- Offer 01: bill of ₹500 or more; draw one slip for a 3%–10% discount, capped at ₹250 per bill.
+- Offer 02: single bill above ₹5,000; draw one premium slip for a 3%–10% discount capped at ₹500, plus the gift printed on the slip (earbuds, smart watch or power bank).
+- One slip per qualifying bill; the selected slip determines the reward. Confirm offer dates, prize availability and complete terms before publishing.
+
+
+## Updated opening offers
+- Offer 1: purchase above ₹500 qualifies for one random 3%–10% discount slip, maximum discount ₹250.
+- Offer 2: purchase of ₹5,000 or more qualifies for a premium lucky slip with a random 3%–10% discount, maximum discount ₹500, plus the gift shown on the slip. Gift options: earbuds, smart watch, power bank, or perfume.
+- Confirm final slip contents, prize availability, promotion dates and applicable terms before publishing.
+
+
+## Corrected premium lucky-slip mechanic
+- Offer 1: purchase above ₹500 qualifies for one slip giving a 3%–10% discount, maximum ₹250.
+- Offer 2: purchase above ₹5,000 qualifies for one premium slip. The selected slip gives ONE reward only: either a 3%–10% discount (maximum ₹500) OR one gift (earbuds, branded smart watch, power bank or perfume). It is not a discount plus a gift.
+- Add the exact smart-watch brand/model to the customer-facing offer and printed slips once confirmed.
+
+
+## Latest visual and Facebook update
+- Updated the site to charcoal black, matte white and subtle woven-textile-style CSS textures.
+- Facebook uses the exact personalised Page link shown in the owner-provided Page settings screenshot: https://www.facebook.com/profile.php?id=61595693604194.
+
+
+## Shop location link
+- The Get Directions and Open in Google Maps links use the exact Google Maps short link supplied by the shop owner: https://maps.app.goo.gl/Tu2j81Bz3i5gDDq7A?g_st=aw
+- The exact short link is stored in `config.js` as `mapsUrl`. A second button now opens a Google Maps search for BYE FASHIONS in Madanapalle if the short link does not open.
+
+
+## Facebook Page link
+- Facebook link updated to the exact personalised Page URL supplied in the Page settings screenshot: https://www.facebook.com/profile.php?id=61595693604194.
