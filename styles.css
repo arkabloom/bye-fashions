@@ -508,3 +508,85 @@ footer img {
   .community-invite { flex-direction: column; align-items: flex-start; padding: 23px 20px; }
   .community-button { width: 100%; }
 }
+
+
+/* Premium collection tiles: clean product photography, consistent editorial layout */
+.collection-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 18px !important;
+}
+.collection-card {
+  min-height: 310px !important;
+  height: 310px !important;
+  padding: 24px !important;
+  background: #111 !important;
+  color: #fff !important;
+  border: 1px solid rgba(180,145,91,.55) !important;
+  border-radius: 2px !important;
+  box-shadow: 0 10px 26px rgba(0,0,0,.13) !important;
+  isolation: isolate !important;
+}
+.collection-card:before {
+  inset: 0 0 0 40% !important;
+  z-index: -2 !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  transition: transform .55s ease !important;
+  opacity: .98 !important;
+}
+.collection-card:after {
+  inset: 0 !important;
+  z-index: -1 !important;
+  background: linear-gradient(90deg,
+    #101010 0%,
+    rgba(16,16,16,.98) 26%,
+    rgba(16,16,16,.78) 45%,
+    rgba(16,16,16,.10) 78%,
+    rgba(16,16,16,.04) 100%) !important;
+}
+.collection-card:hover:before { transform: scale(1.045) !important; }
+.card-shirts:before { background-image: url("assets/collection-shirts.jpg") !important; }
+.card-pants:before { background-image: url("assets/collection-pants.jpg") !important; }
+.card-tees:before { background-image: url("assets/collection-tshirts.jpg") !important; }
+.card-jeans:before { background-image: url("assets/collection-jeans.jpg") !important; }
+.card-jackets:before { background-image: url("assets/collection-jackets.jpg") !important; }
+.card-accessories:before { background-image: url("assets/collection-accessories.jpg") !important; }
+
+.collection-card > span {
+  color: #c6a46b !important;
+  font-size: 11px !important;
+  letter-spacing: 1.5px !important;
+}
+.collection-card small {
+  color: #c6a46b !important;
+  font-size: 9px !important;
+  font-weight: 700 !important;
+  letter-spacing: 2px !important;
+}
+.collection-card h3 {
+  color: #fff !important;
+  font-size: clamp(30px, 2.5vw, 39px) !important;
+  line-height: 1.08 !important;
+  margin: 9px 0 16px !important;
+  text-shadow: 0 2px 8px rgba(0,0,0,.25) !important;
+}
+.collection-card b {
+  display: inline-block !important;
+  color: #fff !important;
+  font-size: 9px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1.15px !important;
+  border-bottom: 1px solid #c6a46b !important;
+  padding-bottom: 5px !important;
+}
+@media (max-width: 900px) {
+  .collection-grid { grid-template-columns: repeat(2,minmax(0,1fr)) !important; }
+  .collection-card { height: 280px !important; min-height: 280px !important; }
+}
+@media (max-width: 560px) {
+  .collection-grid { grid-template-columns: 1fr !important; gap: 14px !important; }
+  .collection-card { height: 260px !important; min-height: 260px !important; padding: 21px !important; }
+  .collection-card:before { inset-left: 34% !important; }
+  .collection-card h3 { font-size: 34px !important; }
+}
