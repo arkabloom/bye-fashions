@@ -590,3 +590,53 @@ footer img {
   .collection-card:before { inset-left: 34% !important; }
   .collection-card h3 { font-size: 34px !important; }
 }
+
+
+/* Collection card image correction: isolated product photography only */
+.collection-card {
+  overflow: hidden !important;
+  background: #101010 !important;
+  border: 1px solid rgba(180,145,91,.52) !important;
+}
+.collection-card:before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 0 0 39% !important;
+  z-index: -2 !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  transform: none !important;
+  transition: transform .5s ease !important;
+}
+.collection-card:after {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: -1 !important;
+  background: linear-gradient(90deg,
+    #101010 0%,
+    rgba(16,16,16,.98) 25%,
+    rgba(16,16,16,.86) 43%,
+    rgba(16,16,16,.18) 72%,
+    rgba(16,16,16,.02) 100%) !important;
+}
+.collection-card:hover:before { transform: scale(1.04) !important; }
+.card-shirts:before { background-image: url("assets/collection-shirts.jpg") !important; }
+.card-pants:before { background-image: url("assets/collection-pants.jpg") !important; }
+.card-tees:before { background-image: url("assets/collection-tshirts.jpg") !important; }
+.card-jeans:before { background-image: url("assets/collection-jeans.jpg") !important; }
+.card-jackets:before { background-image: url("assets/collection-jackets.jpg") !important; }
+.card-accessories:before { background-image: url("assets/collection-accessories.jpg") !important; }
+.collection-card > span,
+.collection-card small,
+.collection-card h3,
+.collection-card b {
+  position: relative !important;
+  z-index: 1 !important;
+  opacity: 1 !important;
+  text-shadow: 0 1px 5px rgba(0,0,0,.55) !important;
+}
+@media (max-width: 560px) {
+  .collection-card:before { inset: 0 0 0 34% !important; }
+}
