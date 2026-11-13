@@ -688,3 +688,63 @@ footer img {
   .social-navigation-links a { font-size: 10px; gap: 7px; }
   .social-navigation-links img { width: 29px; height: 29px; }
 }
+
+
+/* Final cleanup: image-only product area and compact authentic social marks */
+.collection-card {
+  position: relative !important;
+  isolation: isolate !important;
+  background: #111 !important;
+}
+.collection-card:before {
+  inset: 0 0 0 43% !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  opacity: 1 !important;
+}
+.collection-card:after {
+  background: linear-gradient(90deg,
+    #101010 0%,
+    #101010 30%,
+    rgba(16,16,16,.88) 47%,
+    rgba(16,16,16,.28) 72%,
+    rgba(16,16,16,.08) 100%) !important;
+}
+.collection-card > span,
+.collection-card small,
+.collection-card h3,
+.collection-card b {
+  text-shadow: 0 1px 3px rgba(0,0,0,.8) !important;
+}
+.social-navigation {
+  padding: 28px 18px 24px !important;
+}
+.social-navigation-title {
+  margin-bottom: 17px !important;
+  font-size: 11px !important;
+  letter-spacing: 2.6px !important;
+}
+.social-navigation-links {
+  gap: clamp(28px,6vw,64px) !important;
+}
+.social-navigation-links a {
+  flex-direction: column !important;
+  justify-content: center !important;
+  gap: 7px !important;
+  min-width: 76px !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+}
+.social-navigation-links img {
+  width: 38px !important;
+  height: 38px !important;
+  max-width: 38px !important;
+  max-height: 38px !important;
+  object-fit: contain !important;
+}
+@media(max-width:560px) {
+  .collection-card:before { inset: 0 0 0 39% !important; }
+  .social-navigation-links { gap: 18px 24px !important; }
+  .social-navigation-links a { min-width: 64px !important; font-size: 10px !important; }
+  .social-navigation-links img { width: 32px !important; height: 32px !important; }
+}
