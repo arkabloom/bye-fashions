@@ -30,10 +30,14 @@
   $("#shopEmail").href="mailto:"+(c.email || "");
   $("#announcement").textContent=c.announcement || "WELCOME TO BYE FASHIONS";
 
-  function youtubeEmbed(url){
+  function videoEmbed(url){
     if(!url) return "";
     try{
       const u=new URL(url);
+      if(u.hostname.includes("instagram.com")){
+        const match=u.pathname.match(/\\/(?:reel|p|tv)\\/([^/]+)/);
+        return match ? "https://www.instagram.com/reel/"+match[1]+"/embed" : "";
+      }
       let id="";
       if(u.hostname.includes("youtu.be")) id=u.pathname.slice(1);
       else if(u.hostname.includes("youtube.com")) id=u.searchParams.get("v") || (u.pathname.includes("/embed/") ? u.pathname.split("/embed/")[1] : (u.pathname.includes("/shorts/") ? u.pathname.split("/shorts/")[1] : ""));
@@ -41,7 +45,7 @@
     }catch(e){return "";}
   }
   [["promoVideo1",c.promoVideo1],["promoVideo2",c.promoVideo2]].forEach(([id,url])=>{
-    const host=document.getElementById(id), embed=youtubeEmbed(url);
+    const host=document.getElementById(id), embed=videoEmbed(url);
     if(host && embed){
       host.innerHTML="";
       const frame=document.createElement("iframe");
