@@ -35,8 +35,8 @@
     try{
       const u=new URL(url);
       if(u.hostname.includes("instagram.com")){
-        const match=u.pathname.match(/\\/(?:reel|p|tv)\\/([^/]+)/);
-        return match ? "https://www.instagram.com/reel/"+match[1]+"/embed" : "";
+        const match=u.pathname.match(/\/(?:reel|p|tv)\/([^/]+)/);
+        return match ? "https://www.instagram.com/reel/"+match[1]+"/embed/" : "";
       }
       let id="";
       if(u.hostname.includes("youtu.be")) id=u.pathname.slice(1);
