@@ -45,8 +45,30 @@
     }catch(e){return "";}
   }
   [["promoVideo1",c.promoVideo1],["promoVideo2",c.promoVideo2]].forEach(([id,url])=>{
-    const host=document.getElementById(id), embed=videoEmbed(url);
-    if(host && embed){
+    const host=document.getElementById(id);
+    if(!host || !url) return;
+    const isInstagram = /instagram\\.com/i.test(url);
+    if(isInstagram){
+      host.innerHTML="";
+      host.classList.add("instagram-video-link");
+      const link=document.createElement("a");
+      link.href=url; link.target="_blank"; link.rel="noopener noreferrer";
+      link.className="instagram-watch-card";
+      link.setAttribute("aria-label","Watch BYE FASHIONS latest arrivals on Instagram");
+      const icon=document.createElement("img");
+      icon.src="assets/social-instagram.png"; icon.alt="";
+      const eyebrow=document.createElement("span");
+      eyebrow.className="instagram-eyebrow"; eyebrow.textContent="BYE FASHIONS · NEW ARRIVALS";
+      const heading=document.createElement("strong");
+      heading.textContent="Fresh styles. New arrivals.";
+      const action=document.createElement("span");
+      action.className="instagram-watch-action"; action.textContent="WATCH ON INSTAGRAM ↗";
+      link.append(icon,eyebrow,heading,action);
+      host.appendChild(link);
+      return;
+    }
+    const embed=videoEmbed(url);
+    if(embed){
       host.innerHTML="";
       const frame=document.createElement("iframe");
       frame.src=embed; frame.title="BYE FASHIONS promotional video";
