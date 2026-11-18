@@ -15,7 +15,7 @@ window.BYE_CONFIG = {
   whatsappGroup: "https://chat.whatsapp.com/E4lYMnunEx90iemK81GIgt",
   // Paste a direct YouTube video URL here to show your first promo video.
   promoVideo1: "https://www.youtube.com/shorts/ss6zQRD3WaU",
-  promoVideo2: "https://www.instagram.com/reel/DxfYlITpuB/?dlrf=NzAyNmtzMmt4cXFx",
+  promoVideo2: "https://www.youtube.com/shorts/gQI-ed_0oeM",
   // Optional: update this line when your opening offer is finalized.
   announcement: "TWO LUCKY-DRAW OFFERS · SHOP ₹500+ OR ABOVE ₹5,000 · DISCOUNTS + GIFTS"
 };
